@@ -19,6 +19,9 @@ var facing_right = false
 var can_dash = true
 var coyote_timer = 0
 
+func _ready():
+	add_to_group("player")
+
 func _physics_process(delta):
 	var grounded = is_on_floor()
 	
