@@ -28,14 +28,14 @@ func _physics_process(delta):
 	var move_dir = 0
 	if Input.is_action_pressed("move_right"):
 		move_dir += 1
-		if Input.is_action_pressed("dash") and can_dash and not grounded:
+		if Input.is_action_just_pressed("dash") and can_dash:
 			move_dir += DASH_SPEED
 			jump_timer = 0
 			y_velo = 0
 			can_dash = false
 	if Input.is_action_pressed("move_left"):
 		move_dir -= 1
-		if Input.is_action_pressed("dash") and can_dash and not grounded:
+		if Input.is_action_just_pressed("dash") and can_dash:
 			move_dir -= DASH_SPEED
 			jump_timer = 0
 			y_velo = 0
