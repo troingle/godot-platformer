@@ -1,8 +1,8 @@
 extends KinematicBody2D
 
-const MOVE_SPEED = 500
+const MOVE_SPEED = 400
 const DASH_SPEED = 11
-const JUMP_FORCE = 600  # Adjusted jump force for snappy jumps
+const JUMP_FORCE = 500  # Adjusted jump force for snappy jumps
 const GRAVITY = 50
 const MAX_FALL_SPEED = 1000
 const COYOTE_TIME = 0.2
