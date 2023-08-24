@@ -18,3 +18,7 @@ scale = Vector2( 2.5, 2.5 )
 texture = ExtResource( 1 )
 region_rect = Rect2( 5, 5, 5, 5 )
 region_filter_clip = true
+
+[node name="PlayerCamera" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 0.6, 0.6 )
