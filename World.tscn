@@ -19,6 +19,7 @@ position = Vector2( 339, 396 )
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( 503, 297 )
 scale = Vector2( 0.953796, 0.976414 )
+current = true
 zoom = Vector2( 0.6, 0.6 )
 
 [node name="Checkpoint" parent="." instance=ExtResource( 3 )]
